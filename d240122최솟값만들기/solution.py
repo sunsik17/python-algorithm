@@ -1,3 +1,6 @@
+from collections import deque
+
+
 def solution(A, B):
     answer = 0
     A.sort()
@@ -8,3 +11,7 @@ def solution(A, B):
         l -= 1
 
     return answer
+
+
+
+
